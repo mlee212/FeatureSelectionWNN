@@ -1,21 +1,20 @@
 ﻿  main.cpp
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(18,20): warning C4018: '<': signed/unsigned mismatch
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(20,22): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(15,20): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(17,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(46,20): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(49,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(55,22): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=double
           ]
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(24,21): warning C4018: '<': signed/unsigned mismatch
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(27,23): warning C4018: '<': signed/unsigned mismatch
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(28,42): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(29,10): warning C4834: discarding return value of function with 'nodiscard' attribute
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(34,27): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(61,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(65,23): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(96,27): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=double
           ]
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(53,20): warning C4018: '<': signed/unsigned mismatch
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(58,21): warning C4018: '<': signed/unsigned mismatch
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\source\main.cpp(27,20): warning C4018: '<': signed/unsigned mismatch
-D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\source\main.cpp(28,21): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(139,20): warning C4018: '<': signed/unsigned mismatch
+D:\Coding\CS170\FeatureSelectionNN\FeatureSelectionNN\header\search.h(144,21): warning C4018: '<': signed/unsigned mismatch
   FeatureSelectionNN.vcxproj -> D:\Coding\CS170\FeatureSelectionNN\Debug\FeatureSelectionNN.exe

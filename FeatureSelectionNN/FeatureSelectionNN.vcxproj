@@ -25,7 +25,13 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="resource\CS170_largetestdata__41.txt" />
+    <Text Include="resource\CS170_SMALLtestdata__1.txt" />
     <Text Include="resource\CS170_SMALLtestdata__56.txt" />
+    <Text Include="resource\CS170_small_special_testdata__95.txt" />
+    <Text Include="resource\CS170_small_special_testdata__96.txt" />
+    <Text Include="resource\CS170_small_special_testdata__97.txt" />
+    <Text Include="resource\CS170_small_special_testdata__98.txt" />
+    <Text Include="resource\CS170_small_special_testdata__99.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\main.cpp" />
