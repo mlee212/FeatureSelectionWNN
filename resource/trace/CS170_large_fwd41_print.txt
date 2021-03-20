@@ -1,0 +1,11 @@
+Welcome to Matthew Lee's Feature Selection.
+
+Which file size would you like? Large, small, or special small file size? (1, 2, or 3): 1
+Please enter the file number: 41
+Enter your choice of algorithm
+	1) Forward Selection
+	2) Backward Elimination
+1
+
+best set: 
+BEST ACCURACY: 0

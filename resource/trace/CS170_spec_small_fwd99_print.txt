@@ -1,0 +1,271 @@
+Welcome to Matthew Lee's Feature Selection.
+
+Which file size would you like? Large, small, or special small file size? (1, 2, or 3): 3
+Please enter the file number: 99
+Enter your choice of algorithm
+	1) Forward Selection
+	2) Backward Elimination
+1
+
+On the 1th level of the search tree
+	--Considering adding feature 1
+		acc: 0.597
+		best_curr_acc: 0
+		Curr set: 
+	--Considering adding feature 2
+		acc: 0.67
+		best_curr_acc: 0.597
+		Curr set: 
+	--Considering adding feature 3
+		acc: 0.67
+		best_curr_acc: 0.67
+		Curr set: 
+	--Considering adding feature 4
+		acc: 0.65
+		best_curr_acc: 0.67
+		Curr set: 
+	--Considering adding feature 5
+		acc: 0.75
+		best_curr_acc: 0.67
+		Curr set: 
+	--Considering adding feature 6
+		acc: 0.837
+		best_curr_acc: 0.75
+		Curr set: 
+	--Considering adding feature 7
+		acc: 0.64
+		best_curr_acc: 0.837
+		Curr set: 
+	--Considering adding feature 8
+		acc: 0.67
+		best_curr_acc: 0.837
+		Curr set: 
+	--Considering adding feature 9
+		acc: 0.707
+		best_curr_acc: 0.837
+		Curr set: 
+	--Considering adding feature 10
+		acc: 0.653
+		best_curr_acc: 0.837
+		Curr set: 
+overall_acc: 0.837
+On level 1, 6 was added to current set
+
+On the 2th level of the search tree
+	--Considering adding feature 1
+		acc: 0.82
+		best_curr_acc: 0
+		Curr set: 6 
+	--Considering adding feature 2
+		acc: 0.803
+		best_curr_acc: 0.82
+		Curr set: 6 
+	--Considering adding feature 3
+		acc: 0.783
+		best_curr_acc: 0.82
+		Curr set: 6 
+	--Considering adding feature 4
+		acc: 0.827
+		best_curr_acc: 0.82
+		Curr set: 6 
+	--Considering adding feature 5
+		acc: 0.933
+		best_curr_acc: 0.827
+		Curr set: 6 
+	--Considering adding feature 7
+		acc: 0.817
+		best_curr_acc: 0.933
+		Curr set: 6 
+	--Considering adding feature 8
+		acc: 0.837
+		best_curr_acc: 0.933
+		Curr set: 6 
+	--Considering adding feature 9
+		acc: 0.817
+		best_curr_acc: 0.933
+		Curr set: 6 
+	--Considering adding feature 10
+		acc: 0.777
+		best_curr_acc: 0.933
+		Curr set: 6 
+overall_acc: 0.933
+On level 2, 5 was added to current set
+
+On the 3th level of the search tree
+	--Considering adding feature 1
+		acc: 0.91
+		best_curr_acc: 0
+		Curr set: 5 6 
+	--Considering adding feature 2
+		acc: 0.91
+		best_curr_acc: 0.91
+		Curr set: 5 6 
+	--Considering adding feature 3
+		acc: 0.877
+		best_curr_acc: 0.91
+		Curr set: 5 6 
+	--Considering adding feature 4
+		acc: 0.897
+		best_curr_acc: 0.91
+		Curr set: 5 6 
+	--Considering adding feature 7
+		acc: 0.93
+		best_curr_acc: 0.91
+		Curr set: 5 6 
+	--Considering adding feature 8
+		acc: 0.88
+		best_curr_acc: 0.93
+		Curr set: 5 6 
+	--Considering adding feature 9
+		acc: 0.887
+		best_curr_acc: 0.93
+		Curr set: 5 6 
+	--Considering adding feature 10
+		acc: 0.91
+		best_curr_acc: 0.93
+		Curr set: 5 6 
+overall_acc: 0.933
+On level 3, 7 was added to current set
+
+On the 4th level of the search tree
+	--Considering adding feature 1
+		acc: 0.883
+		best_curr_acc: 0
+		Curr set: 7 6 5 
+	--Considering adding feature 2
+		acc: 0.867
+		best_curr_acc: 0.883
+		Curr set: 7 6 5 
+	--Considering adding feature 3
+		acc: 0.84
+		best_curr_acc: 0.883
+		Curr set: 7 6 5 
+	--Considering adding feature 4
+		acc: 0.84
+		best_curr_acc: 0.883
+		Curr set: 7 6 5 
+	--Considering adding feature 8
+		acc: 0.837
+		best_curr_acc: 0.883
+		Curr set: 7 6 5 
+	--Considering adding feature 9
+		acc: 0.837
+		best_curr_acc: 0.883
+		Curr set: 7 6 5 
+	--Considering adding feature 10
+		acc: 0.837
+		best_curr_acc: 0.883
+		Curr set: 7 6 5 
+overall_acc: 0.933
+On level 4, 1 was added to current set
+
+On the 5th level of the search tree
+	--Considering adding feature 2
+		acc: 0.857
+		best_curr_acc: 0
+		Curr set: 1 7 6 5 
+	--Considering adding feature 3
+		acc: 0.853
+		best_curr_acc: 0.857
+		Curr set: 1 7 6 5 
+	--Considering adding feature 4
+		acc: 0.797
+		best_curr_acc: 0.857
+		Curr set: 1 7 6 5 
+	--Considering adding feature 8
+		acc: 0.827
+		best_curr_acc: 0.857
+		Curr set: 1 7 6 5 
+	--Considering adding feature 9
+		acc: 0.833
+		best_curr_acc: 0.857
+		Curr set: 1 7 6 5 
+	--Considering adding feature 10
+		acc: 0.83
+		best_curr_acc: 0.857
+		Curr set: 1 7 6 5 
+overall_acc: 0.933
+On level 5, 2 was added to current set
+
+On the 6th level of the search tree
+	--Considering adding feature 3
+		acc: 0.81
+		best_curr_acc: 0
+		Curr set: 2 1 7 6 5 
+	--Considering adding feature 4
+		acc: 0.78
+		best_curr_acc: 0.81
+		Curr set: 2 1 7 6 5 
+	--Considering adding feature 8
+		acc: 0.807
+		best_curr_acc: 0.81
+		Curr set: 2 1 7 6 5 
+	--Considering adding feature 9
+		acc: 0.81
+		best_curr_acc: 0.81
+		Curr set: 2 1 7 6 5 
+	--Considering adding feature 10
+		acc: 0.803
+		best_curr_acc: 0.81
+		Curr set: 2 1 7 6 5 
+overall_acc: 0.933
+On level 6, 3 was added to current set
+
+On the 7th level of the search tree
+	--Considering adding feature 4
+		acc: 0.777
+		best_curr_acc: 0
+		Curr set: 3 2 1 7 6 5 
+	--Considering adding feature 8
+		acc: 0.777
+		best_curr_acc: 0.777
+		Curr set: 3 2 1 7 6 5 
+	--Considering adding feature 9
+		acc: 0.803
+		best_curr_acc: 0.777
+		Curr set: 3 2 1 7 6 5 
+	--Considering adding feature 10
+		acc: 0.8
+		best_curr_acc: 0.803
+		Curr set: 3 2 1 7 6 5 
+overall_acc: 0.933
+On level 7, 9 was added to current set
+
+On the 8th level of the search tree
+	--Considering adding feature 4
+		acc: 0.747
+		best_curr_acc: 0
+		Curr set: 9 5 6 7 1 2 3 
+	--Considering adding feature 8
+		acc: 0.813
+		best_curr_acc: 0.747
+		Curr set: 9 5 6 7 1 2 3 
+	--Considering adding feature 10
+		acc: 0.75
+		best_curr_acc: 0.813
+		Curr set: 9 5 6 7 1 2 3 
+overall_acc: 0.933
+On level 8, 8 was added to current set
+
+On the 9th level of the search tree
+	--Considering adding feature 4
+		acc: 0.783
+		best_curr_acc: 0
+		Curr set: 8 9 5 6 7 1 2 3 
+	--Considering adding feature 10
+		acc: 0.757
+		best_curr_acc: 0.783
+		Curr set: 8 9 5 6 7 1 2 3 
+overall_acc: 0.933
+On level 9, 4 was added to current set
+
+On the 10th level of the search tree
+	--Considering adding feature 10
+		acc: 0.717
+		best_curr_acc: 0
+		Curr set: 4 8 9 5 6 7 1 2 3 
+overall_acc: 0.933
+On level 10, 10 was added to current set
+
+best set: 5 6 
+BEST ACCURACY: 0.933

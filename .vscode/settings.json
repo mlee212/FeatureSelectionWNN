@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "xhash": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "xiosbase": "cpp",
+        "iomanip": "cpp",
+        "ostream": "cpp",
+        "xstring": "cpp",
+        "unordered_set": "cpp"
+    }
+}

@@ -1,0 +1,107 @@
+Welcome to Matthew Lee's Feature Selection.
+
+Which file size would you like? Large, small, or special small file size? (1, 2, or 3): 2
+Please enter the file number: 56
+Enter your choice of algorithm
+	1) Forward Selection
+	2) Backward Elimination
+2
+
+Accuracy of the empty set: 0.76
+On the 1th level of the search tree
+	--Considering removing the 1 feature
+	--Considering removing the 2 feature
+	--Considering removing the 3 feature
+	--Considering removing the 4 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 7 feature
+	--Considering removing the 8 feature
+	--Considering removing the 9 feature
+	--Considering removing the 10 feature
+overall_acc: 0.763
+On level 1, 3 was removed from the current set
+
+On the 2th level of the search tree
+	--Considering removing the 1 feature
+	--Considering removing the 2 feature
+	--Considering removing the 4 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 7 feature
+	--Considering removing the 8 feature
+	--Considering removing the 9 feature
+	--Considering removing the 10 feature
+overall_acc: 0.783
+On level 2, 7 was removed from the current set
+
+On the 3th level of the search tree
+	--Considering removing the 1 feature
+	--Considering removing the 2 feature
+	--Considering removing the 4 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 8 feature
+	--Considering removing the 9 feature
+	--Considering removing the 10 feature
+overall_acc: 0.8
+On level 3, 10 was removed from the current set
+
+On the 4th level of the search tree
+	--Considering removing the 1 feature
+	--Considering removing the 2 feature
+	--Considering removing the 4 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 8 feature
+	--Considering removing the 9 feature
+overall_acc: 0.823
+On level 4, 4 was removed from the current set
+
+On the 5th level of the search tree
+	--Considering removing the 1 feature
+	--Considering removing the 2 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 8 feature
+	--Considering removing the 9 feature
+overall_acc: 0.86
+On level 5, 8 was removed from the current set
+
+On the 6th level of the search tree
+	--Considering removing the 1 feature
+	--Considering removing the 2 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 9 feature
+overall_acc: 0.907
+On level 6, 1 was removed from the current set
+
+On the 7th level of the search tree
+	--Considering removing the 2 feature
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 9 feature
+overall_acc: 0.943
+On level 7, 2 was removed from the current set
+
+On the 8th level of the search tree
+	--Considering removing the 5 feature
+	--Considering removing the 6 feature
+	--Considering removing the 9 feature
+overall_acc: 0.96
+On level 8, 6 was removed from the current set
+
+On the 9th level of the search tree
+	--Considering removing the 5 feature
+	--Considering removing the 9 feature
+overall_acc: 0.96
+On level 9, 5 was removed from the current set
+
+On the 10th level of the search tree
+	--Considering removing the 9 feature
+overall_acc: 0.96
+On level 10, 9 was removed from the current set
+
+best set: 9 5 
+BEST ACCURACY: 0.96

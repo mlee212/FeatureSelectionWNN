@@ -1,0 +1,107 @@
+Welcome to Matthew Lee's Feature Selection.
+
+Which file size would you like? Large, small, or special small file size? (1, 2, or 3): 3
+Please enter the file number: 95
+Enter your choice of algorithm
+	1) Forward Selection
+	2) Backward Elimination
+1
+
+Accuracy of the empty set: 0.797
+On the 1th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 3
+	--Considering adding feature 4
+	--Considering adding feature 5
+	--Considering adding feature 6
+	--Considering adding feature 7
+	--Considering adding feature 8
+	--Considering adding feature 9
+	--Considering adding feature 10
+overall_acc: 0.82
+On level 1, 7 was added to current set
+
+On the 2th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 3
+	--Considering adding feature 4
+	--Considering adding feature 5
+	--Considering adding feature 6
+	--Considering adding feature 8
+	--Considering adding feature 9
+	--Considering adding feature 10
+overall_acc: 0.947
+On level 2, 6 was added to current set
+
+On the 3th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 3
+	--Considering adding feature 4
+	--Considering adding feature 5
+	--Considering adding feature 8
+	--Considering adding feature 9
+	--Considering adding feature 10
+overall_acc: 0.947
+On level 3, 4 was added to current set
+
+On the 4th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 3
+	--Considering adding feature 5
+	--Considering adding feature 8
+	--Considering adding feature 9
+	--Considering adding feature 10
+overall_acc: 0.947
+On level 4, 3 was added to current set
+
+On the 5th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 5
+	--Considering adding feature 8
+	--Considering adding feature 9
+	--Considering adding feature 10
+overall_acc: 0.947
+On level 5, 10 was added to current set
+
+On the 6th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 5
+	--Considering adding feature 8
+	--Considering adding feature 9
+overall_acc: 0.947
+On level 6, 8 was added to current set
+
+On the 7th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 5
+	--Considering adding feature 9
+overall_acc: 0.947
+On level 7, 9 was added to current set
+
+On the 8th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+	--Considering adding feature 5
+overall_acc: 0.947
+On level 8, 5 was added to current set
+
+On the 9th level of the search tree
+	--Considering adding feature 1
+	--Considering adding feature 2
+overall_acc: 0.947
+On level 9, 1 was added to current set
+
+On the 10th level of the search tree
+	--Considering adding feature 2
+overall_acc: 0.947
+On level 10, 2 was added to current set
+
+best set: 6 7 
+BEST ACCURACY: 0.947

@@ -1,0 +1,271 @@
+Welcome to Matthew Lee's Feature Selection.
+
+Which file size would you like? Large, small, or special small file size? (1, 2, or 3): 3
+Please enter the file number: 98
+Enter your choice of algorithm
+	1) Forward Selection
+	2) Backward Elimination
+2
+
+On the 1th level of the search tree
+	--Considering adding the 1 feature
+		acc: 0.75
+		best_curr_acc: 0
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 2 feature
+		acc: 0.81
+		best_curr_acc: 0.75
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 3 feature
+		acc: 0.733
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 4 feature
+		acc: 0.767
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 5 feature
+		acc: 0.8
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 6 feature
+		acc: 0.783
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 7 feature
+		acc: 0.753
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 8 feature
+		acc: 0.753
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 9 feature
+		acc: 0.807
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 10 feature
+		acc: 0.817
+		best_curr_acc: 0.81
+		Curr set: 10 9 8 7 2 1 3 4 5 6 
+overall_acc: 0.817
+On level 1, 10 was removed from the current set
+
+On the 2th level of the search tree
+	--Considering adding the 1 feature
+		acc: 0.79
+		best_curr_acc: 0
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 2 feature
+		acc: 0.827
+		best_curr_acc: 0.79
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 3 feature
+		acc: 0.78
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 4 feature
+		acc: 0.797
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 5 feature
+		acc: 0.817
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 6 feature
+		acc: 0.803
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 7 feature
+		acc: 0.763
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 8 feature
+		acc: 0.74
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+	--Considering adding the 9 feature
+		acc: 0.797
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 2 1 3 4 5 6 
+overall_acc: 0.827
+On level 2, 2 was removed from the current set
+
+On the 3th level of the search tree
+	--Considering adding the 1 feature
+		acc: 0.827
+		best_curr_acc: 0
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 3 feature
+		acc: 0.823
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 4 feature
+		acc: 0.823
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 5 feature
+		acc: 0.81
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 6 feature
+		acc: 0.813
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 7 feature
+		acc: 0.727
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 8 feature
+		acc: 0.787
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+	--Considering adding the 9 feature
+		acc: 0.827
+		best_curr_acc: 0.827
+		Curr set: 9 8 7 1 3 4 5 6 
+overall_acc: 0.827
+On level 3, 1 was removed from the current set
+
+On the 4th level of the search tree
+	--Considering adding the 3 feature
+		acc: 0.833
+		best_curr_acc: 0
+		Curr set: 9 8 7 3 4 5 6 
+	--Considering adding the 4 feature
+		acc: 0.833
+		best_curr_acc: 0.833
+		Curr set: 9 8 7 3 4 5 6 
+	--Considering adding the 5 feature
+		acc: 0.817
+		best_curr_acc: 0.833
+		Curr set: 9 8 7 3 4 5 6 
+	--Considering adding the 6 feature
+		acc: 0.8
+		best_curr_acc: 0.833
+		Curr set: 9 8 7 3 4 5 6 
+	--Considering adding the 7 feature
+		acc: 0.73
+		best_curr_acc: 0.833
+		Curr set: 9 8 7 3 4 5 6 
+	--Considering adding the 8 feature
+		acc: 0.79
+		best_curr_acc: 0.833
+		Curr set: 9 8 7 3 4 5 6 
+	--Considering adding the 9 feature
+		acc: 0.83
+		best_curr_acc: 0.833
+		Curr set: 9 8 7 3 4 5 6 
+overall_acc: 0.833
+On level 4, 3 was removed from the current set
+
+On the 5th level of the search tree
+	--Considering adding the 4 feature
+		acc: 0.853
+		best_curr_acc: 0
+		Curr set: 9 8 7 4 5 6 
+	--Considering adding the 5 feature
+		acc: 0.863
+		best_curr_acc: 0.853
+		Curr set: 9 8 7 4 5 6 
+	--Considering adding the 6 feature
+		acc: 0.867
+		best_curr_acc: 0.863
+		Curr set: 9 8 7 4 5 6 
+	--Considering adding the 7 feature
+		acc: 0.757
+		best_curr_acc: 0.867
+		Curr set: 9 8 7 4 5 6 
+	--Considering adding the 8 feature
+		acc: 0.757
+		best_curr_acc: 0.867
+		Curr set: 9 8 7 4 5 6 
+	--Considering adding the 9 feature
+		acc: 0.837
+		best_curr_acc: 0.867
+		Curr set: 9 8 7 4 5 6 
+overall_acc: 0.867
+On level 5, 6 was removed from the current set
+
+On the 6th level of the search tree
+	--Considering adding the 4 feature
+		acc: 0.88
+		best_curr_acc: 0
+		Curr set: 9 8 7 4 5 
+	--Considering adding the 5 feature
+		acc: 0.873
+		best_curr_acc: 0.88
+		Curr set: 9 8 7 4 5 
+	--Considering adding the 7 feature
+		acc: 0.747
+		best_curr_acc: 0.88
+		Curr set: 9 8 7 4 5 
+	--Considering adding the 8 feature
+		acc: 0.773
+		best_curr_acc: 0.88
+		Curr set: 9 8 7 4 5 
+	--Considering adding the 9 feature
+		acc: 0.913
+		best_curr_acc: 0.88
+		Curr set: 9 8 7 4 5 
+overall_acc: 0.913
+On level 6, 9 was removed from the current set
+
+On the 7th level of the search tree
+	--Considering adding the 4 feature
+		acc: 0.883
+		best_curr_acc: 0
+		Curr set: 8 7 4 5 
+	--Considering adding the 5 feature
+		acc: 0.887
+		best_curr_acc: 0.883
+		Curr set: 8 7 4 5 
+	--Considering adding the 7 feature
+		acc: 0.76
+		best_curr_acc: 0.887
+		Curr set: 8 7 4 5 
+	--Considering adding the 8 feature
+		acc: 0.83
+		best_curr_acc: 0.887
+		Curr set: 8 7 4 5 
+overall_acc: 0.913
+On level 7, 5 was removed from the current set
+
+On the 8th level of the search tree
+	--Considering adding the 4 feature
+		acc: 0.96
+		best_curr_acc: 0
+		Curr set: 8 7 4 
+	--Considering adding the 7 feature
+		acc: 0.753
+		best_curr_acc: 0.96
+		Curr set: 8 7 4 
+	--Considering adding the 8 feature
+		acc: 0.823
+		best_curr_acc: 0.96
+		Curr set: 8 7 4 
+overall_acc: 0.96
+On level 8, 4 was removed from the current set
+
+On the 9th level of the search tree
+	--Considering adding the 7 feature
+		acc: 0.75
+		best_curr_acc: 0
+		Curr set: 8 7 
+	--Considering adding the 8 feature
+		acc: 0.847
+		best_curr_acc: 0.75
+		Curr set: 8 7 
+overall_acc: 0.96
+On level 9, 8 was removed from the current set
+
+On the 10th level of the search tree
+	--Considering adding the 7 feature
+		acc: 0.837
+		best_curr_acc: 0
+		Curr set: 7 
+overall_acc: 0.96
+On level 10, 7 was removed from the current set
+
+best set: 8 7 
+BEST ACCURACY: 0.96
