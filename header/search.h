@@ -138,8 +138,8 @@ void feature_search_forward(vector<vector<double>> df, string fileNum, int fsz) 
 	
 	// file name string generator to write to
 	if (fsz == 1) {
-		trace = "CS170_large_fwdnew" + fileNum + "_print.txt";
-		jData = "large_fwdnew" + fileNum + "data.json";
+		trace = "CS170_large_fwd" + fileNum + "_print.txt";
+		jData = "large_fwd" + fileNum + "data.json";
 	}
 	else if(fsz == 2){
 		trace = "CS170_small_fwd" + fileNum + "_print.txt";
@@ -232,8 +232,8 @@ void feature_search_backward(vector<vector<double>> df, string fileNum, int fsz)
 	string jData;
 	
 	if (fsz == 1) {
-		trace = "CS170_large_bkwdnew" + fileNum + "_print.txt";
-		jData = "large_bkwdnew" + fileNum + "data.json";
+		trace = "CS170_large_bkwd" + fileNum + "_print.txt";
+		jData = "large_bkwd" + fileNum + "data.json";
 	}
 	else if(fsz == 2){
 		trace = "CS170_small_bkwd" + fileNum + "_print.txt";

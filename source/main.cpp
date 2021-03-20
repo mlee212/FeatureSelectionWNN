@@ -100,7 +100,7 @@ int main() {
 
 	// file name generator to write
 	if (fsz == 1) {
-		trace = "CS170_large_newtime" + fileNum + "_print.txt";
+		trace = "CS170_large" + fileNum + "_print.txt";
 	}
 	else if(fsz == 2){
 		trace = "CS170_small_time" + fileNum + "_print.txt";
